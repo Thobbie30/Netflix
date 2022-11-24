@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: white;
+}
+
+header {
+  border-bottom: 0.5rem solid rgb(82, 81, 81);
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  background-image: linear-gradient( to bottom, rgba(0, 0, 0, 0.829), rgba(0, 0, 0, 0.013), rgba(0, 0, 0, 0.706)), url(./images/LP.jpg);
+}
+
+#logo {
+  width: 12rem;
+  height: 4rem;
+}
+
+#chevron {
+  width: 1rem;
+}
+
+.header_container {
+  height: 8rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 5rem;
+}
+
+.header_container a {
+  text-decoration: none;
+  color: white;
+  background-color: red;
+  font-size: 1.3rem;
+  font-weight: 500;
+  padding: 0.5rem 1.5rem;
+  border-radius: 4px;
+}
+
+.hero_section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.hero_section h1 {
+  font-size: 3rem;
+  width: 40%;
+  text-align: center;
+  line-height: 65px;
+}
+
+.hero_section p {
+  font-size: 2rem;
+}
+
+label {
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+.get_started {
+  margin-top: 1rem;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+#email {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.3rem;
+  font-weight: 500;
+  padding: 1.5rem 1rem;
+  width: 30rem;
+}
+
+#signup_btn {
+  color: white;
+  background-color: red;
+  border: none;
+  border-radius: 3px;
+  font-family: "Roboto", sans-serif;
+  font-size: 2.2rem;
+  padding: 1rem 2.5rem;
+}
+
+.tv-section {
+  background-color: #000;
+  border-top: solid 5px #333;
+}
+
+.tv-section .container {
+  width: 80%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  padding: 2rem 0;
+}
+
+.tv-section .description {
+  font-size: 0.8rem;
+}
+
+.tv-section .content {
+  color: #fff;
+}
+
+.section-title {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.section-img {
+  width: 80%;
+}
+
+.question{
+  background-color: #000;
+  padding: 4rem 3rem;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.question h1 {
+  padding-bottom: 2rem;
+}
+
+.quest .text {
+  border-radius: 4rem grey;
+  background-color: grey;
+  padding: 1rem 2rem;
+  margin-bottom: 0.5rem;
+}
+
+li {
+  list-style-type: none;
+}
